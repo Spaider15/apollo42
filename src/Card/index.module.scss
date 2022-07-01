@@ -1,0 +1,155 @@
+.card { 
+    background: linear-gradient(181.09deg, rgba(43, 51, 64, 0.7) 0.93%, rgba(43, 51, 64, 0) 110.1%);
+    box-shadow: 0px 4px 35px rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(25px);
+    border-radius: 45px;
+    width: 283px;
+    height: 400px;
+    transition: all 300ms;
+
+    &:hover {
+        background: linear-gradient(180deg, #33414E 36.67%, #142330 101.73%, #12202E 107.44%);
+        box-shadow: 0px 4px 35px rgba(0, 0, 0, 0.25);
+        transform: translateY(-50px);
+        height: 450px;
+
+        .title {
+            opacity: 1;
+        }
+    }
+}
+
+.img {
+    box-shadow: inset 0px 0px 25px rgba(0, 0, 0, 0.05);
+    border-radius: 45px 45px 0px 0px;
+    width: 100%;
+    height: 204px;
+    object-fit: cover;
+}
+
+.content {
+    padding: 33px;
+
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    margin-bottom: 18px;
+}
+
+.avatar {
+    width: 38px;
+    height: 38px;
+    filter: drop-shadow(0px 4px 15px rgba(0, 0, 0, 0.15));
+    border-radius: 10px;
+    margin-right: 14px;
+}
+
+.userInfo {
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+}
+
+.name {
+    color: #FFFFFF;
+    font-size: 12px;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+}
+
+.lastVisit {
+    font-size: 10px;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.3;
+    text-transform: uppercase;
+}
+
+.lastVisitIcon {
+    width: 16px;
+    height: 12px;
+    margin-right: 9px;
+}
+
+.lastVisitCounter {
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+.cardInfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.title {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.2;
+}
+
+.price {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.3;
+    text-transform: uppercase;
+}
+
+.social {
+    display: flex;
+}
+
+.socialItem {
+    cursor: pointer;
+    margin-right: 32px;
+    color: #FFFFFF;
+    display: flex;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.1em;
+    overflow: hidden;
+    margin-top: 50px;
+
+    &:hover {
+        color: #FF70B4;
+
+        path {
+            stroke: #FF70B4;
+        }
+    }
+}
+
+.socialIcon {
+    margin-right: 10px;
+    
+    path {
+        stroke: white;
+    }
+}
+
+.enter {
+    max-height: 0;
+}
+.enterActive {
+    max-height: 100px;
+    transition: max-height 300ms;
+}
+.exit {
+    max-height: 100px;
+}
+.exitActive {
+    max-height: 0;
+    transition: max-height 300ms;
+}

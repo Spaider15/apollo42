@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.png';
 import './App.css';
 import Dropdown from './Dropdown';
+import Card from './Card';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
           <div className='App-title'>Market</div>
           <Dropdown value="1 Month"></Dropdown>
         </div>
+        <Card />
     </div>
   );
 }
