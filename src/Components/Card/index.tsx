@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { CSSTransition } from 'react-transition-group'
 import styles from './index.module.scss';
-import defaultImage from './defaultImage.png'
-import defaultAvatar from './defaultAvatar.png'
-import lastVisitIcon from './lastVisit.png';
+import defaultImage from './images/defaultImage.png'
+import defaultAvatar from './images/defaultAvatar.png'
+import lastVisitIcon from './images/lastVisit.png';
 
 type Props = {
     img?: string;

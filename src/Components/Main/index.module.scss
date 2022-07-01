@@ -1,13 +1,13 @@
 .main {
     height: 100vh;
-    background: url('./background.png'), radial-gradient(69.07% 69.07% at 51.54% 24.26%, #56456B 0.01%, #070707 100%);
+    background: url('./images/background.png'), radial-gradient(69.07% 69.07% at 51.54% 24.26%, #56456B 0.01%, #070707 100%);
     background-size: cover;
     padding: 100px 100px 0 100px;
     overflow: hidden;
   }
   
   .logo {
-    background: url('./logo.png');
+    background: url('./images/logo.png');
     background-size: cover;
     width: 192px;
     height: 37px;
