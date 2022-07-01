@@ -5,6 +5,16 @@
     padding: 100px 100px 0 100px;
     overflow: hidden;
   }
+
+  @media only screen and (max-width: 600px) {
+    .main {
+        padding: 15px 15px 0 15px;
+    }
+
+    .header {
+        flex-wrap: wrap;
+    }
+}
   
   .logo {
     background: url('./images/logo.png');
